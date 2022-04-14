@@ -1,6 +1,6 @@
 <?php
 
-    class PortifolioRepository{
+    class MediaRepository{
         private $conn;
 
         public function __construct() {

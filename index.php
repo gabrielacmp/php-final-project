@@ -46,7 +46,10 @@
 
       
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bi <?= $media->nome ?>"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
       
 
@@ -80,7 +83,7 @@
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 1</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis. Debitis placeat sint animi molestias dicta blanditiis voluptates eveniet reiciendis.</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"></a>
               </div>
@@ -93,7 +96,7 @@
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur id ea repudiandae reprehenderit ipsam labore vel corrupti ullam! Error, omnis amet! Eveniet debitis laborum, commodi modi ea magnam sapiente!</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"></a>
               </div>
@@ -106,7 +109,7 @@
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 2</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime consequatur iure ipsum perspiciatis asperiores, incidunt quaerat cupiditate, mollitia nulla modi expedita blanditiis dolore corporis impedit, placeat ea quos minima.</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"></a>
               </div>
@@ -119,7 +122,7 @@
             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 2</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia consequatur nam tempore quae adipisci velit sed? Dolores neque porro ut harum voluptas? Ullam, aperiam. Eius nesciunt ea consequatur labore quia.</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"></a>
               </div>
@@ -132,7 +135,7 @@
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 2</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo deserunt error magnam ea optio quaerat in at harum rem! Quisquam illo fuga odit labore id odio alias doloribus explicabo.</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"></a>
               </div>
@@ -145,7 +148,7 @@
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 3</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eaque culpa itaque corporis reprehenderit quasi, ex beatae, nihil voluptatibus repellat aspernatur ad, minus exercitationem doloribus ullam modi corrupti nostrum. Est!</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"></a>
               </div>
@@ -158,7 +161,7 @@
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 1</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repudiandae perferendis quisquam deleniti ratione exercitationem iure? Sed voluptates vitae aperiam deserunt earum molestiae dolor suscipit autem? Debitis minus blanditiis alias.</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"></a>
               </div>
@@ -171,7 +174,7 @@
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 3</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius dolores dolor magni quos, fugiat facere ratione doloribus inventore, a officia quam ea odio odit deleniti dicta atque temporibus? Ad, officia./p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"></a>
               </div>
@@ -184,7 +187,7 @@
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 1</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio excepturi voluptatibus magni maxime repellendus odit aspernatur voluptates eos. Error ipsam alias provident, fugit consequuntur eos culpa id veniam itaque?</p>
+              <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa, voluptates repudiandae unde nulla assumenda commodi accusamus explicabo recusandae reiciendis.</small></p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"></a>
               </div>
