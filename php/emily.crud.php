@@ -1,9 +1,9 @@
 <?php
 
-    require_once("connection.php");
+    /* require_once("connection.php"); */
 
     /* Create Start */
-        function cadastrarMedia($nome){
+        /* function cadastrarMedia($nome){
             $con = getConnection();
             $sql = "insert into media (nome) values (:nome)";
             $result = $con->prepare($sql);
@@ -29,11 +29,11 @@
             if($execute)
                 return true;
             return false;
-        }
+        } */
     /* Create End */
 
     /* Retrieve Start */
-        function listarMedia(){
+        /* function listarMedia(){
             $con = getConnection();
             $sql = "select * from media";
             $result = $con->query($sql);
@@ -59,9 +59,9 @@
             unset($con);
             unset($result);
             return $listaPortifolio;
-        }
+        } */
         /* Search Start */
-            function buscarMedia(){
+            /* function buscarMedia(){
                 $con = getConnection();
                 $sql = "select * from media where id = :id";
                 $result = $con->prepare($sql);
@@ -83,12 +83,12 @@
                 unset($con);
                 unset($result);
                 return $media;
-            }
+            } */
         /* Search End */
     /* Retrieve End */
 
     /* Update Start */
-        function atualizarMedia($id, $nome){
+        /* function atualizarMedia($id, $nome){
             $con = getConnection();
             $sql = "update media set nome = :nome where id = :id";
             $result = $con->prepare($sql);
@@ -116,11 +116,11 @@
             if($execute)
                 return true;
             return false;
-        }
+        } */
     /* Update End */
 
     /* Delete Start */
-        function deletarMedia(){
+        /* function deletarMedia(){
             $con = getConnection();
             $sql = "delete from media where id = :id";
             $result = $con->prepare($sql);
@@ -144,5 +144,5 @@
             if($execute)
                 return true;
             return false;
-        }
+        } */
     /* Delete End */
