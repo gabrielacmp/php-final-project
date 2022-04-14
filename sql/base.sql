@@ -10,3 +10,15 @@ create table if not exists (
     imagem varchar(255) not null,
     title varchar(255) not null,
     texto text not null);
+
+insert into media (nome) values 
+("bi-twitter"),
+("bi-facebook"),
+("bi-instagram"),
+("bi-linkedin");
+
+/* insert into portifolio (imagem, title, texto) values 
+("bi-twitter"),
+("bi-facebook"),
+("bi-instagram"),
+("bi-linkedin"); */

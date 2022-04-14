@@ -1,9 +1,9 @@
 <?php
 
-    define("HOSTNAME", "us-cdbr-east-05.cleardb.net");
-    define("USERNAME", "ba60eec6f1c0e0");
-    define("PASSWORD", "ce4ca2da");
-    define("SCHEMA", "heroku_8bba7033b881672");
+    define("HOSTNAME", "ec2-34-192-210-139.compute-1.amazonaws.com");
+    define("USERNAME", "loaenwzmqtgtob");
+    define("PASSWORD", "ca045e38f16f66de9b027cdee2c7b09fc469e702e58790d5f43d4501aa0802e5");
+    define("SCHEMA", "d1lhob8ahpbmbs");
     define("PORT", 5432);
 
     function getConnection()
