@@ -7,7 +7,7 @@
             $con = getConnection();
             $sql = "insert into media (nome) values (:nome)";
             $result = $con->prepare($sql);
-            $result->bindParam(":nome", $imagem);
+            $result->bindParam(":nome", $nome);
             $execute = $result->execute();
             unset($con);
             unset($result);
@@ -44,7 +44,7 @@
             }
             unset($con);
             unset($result);
-            return $listaMedia
+            return $listaMedia;
         }
 
         function listarPortifolio(){
