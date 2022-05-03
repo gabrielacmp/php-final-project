@@ -1,12 +1,12 @@
 <?php
     class Connection extends PDO {
 
-        const HOSTNAME = "ec2-34-192-210-139.compute-1.amazonaws.com";
-        const USERNAME = "loaenwzmqtgtob";
-        const PASSWORD = "ca045e38f16f66de9b027cdee2c7b09fc469e702e58790d5f43d4501aa0802e5";
-        const SCHEMA = "d1lhob8ahpbmbs";
+        const HOSTNAME = "ec2-52-71-69-66.compute-1.amazonaws.com";
+        const USERNAME = "gvsaryfeqtkpgz";
+        const PASSWORD = "f94a82e7c31c4f906ee0939c738ee4bd501292d5ccb287308ce6d6368122efd4";
+        const SCHEMA = "d65tj8kq6hp0mm";
         const PORT = 5432;
-        
+
         private $conn;
 
         # magic method
@@ -20,4 +20,4 @@
             $this->conn->query("SET timezone TO 'America/Sao_Paulo'");
             return $this->conn;
         }
-    }
+    } 
